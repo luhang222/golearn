@@ -73,7 +73,9 @@ func result(done chan bool) {
 }
 
 func main() {
-	Do()
+	T, _ := time.Parse("2006-01-02 15:04:05", "2018-03-21 00:00:00")
+	fmt.Println(T.Unix())
+	fmt.Println(T.Format("2006-01-02 15:04:05"))
 }
 
 func Do() {
@@ -88,4 +90,18 @@ func Do() {
 	endTime := time.Now()
 	diff := endTime.Sub(startTime)
 	fmt.Println("total time taken ", diff.Seconds(), "seconds")
+}
+
+func Do2() {
+	go Do3()
+	go Do3()
+	return
+}
+
+func Do3() {
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+		time.Sleep(1 * time.Second)
+	}
+	return
 }
