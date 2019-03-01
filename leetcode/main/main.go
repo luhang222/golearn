@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"learn/leetcode"
-)
+import "fmt"
 
 func main() {
 	//a := leetcode.FindMedianSortedArrays([]int{
@@ -20,5 +17,8 @@ func main() {
 	//fmt.Println([]byte{'0','1','2','3','4','5','6','7','8','9','a',' ','-'})
 	//fmt.Println(leetcode.Reverse(123))
 	//fmt.Println(leetcode.MyAtoi("4193 with words"))
-	fmt.Println(leetcode.IsPalindrome(1313131312))
+	//fmt.Println(leetcode.IsPalindrome(1313131312))
+	a := ".*"
+	b := []rune(a)
+	fmt.Println(b)
 }
