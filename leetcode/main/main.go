@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"golearn/leetcode"
+)
 
 func main() {
 	//a := leetcode.FindMedianSortedArrays([]int{
@@ -18,7 +21,10 @@ func main() {
 	//fmt.Println(leetcode.Reverse(123))
 	//fmt.Println(leetcode.MyAtoi("4193 with words"))
 	//fmt.Println(leetcode.IsPalindrome(1313131312))
-	a := ".*"
-	b := []rune(a)
-	fmt.Println(b)
+	//a := "asd.*"
+	//b := []rune(a)
+	//fmt.Println(a[0:])
+	//fmt.Println(strings.Index(a,"."))
+	//fmt.Println(a[strings.Index(a,"."):])
+	fmt.Println(leetcode.IsMatch("a", ".*..a*"))
 }
