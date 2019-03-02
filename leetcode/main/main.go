@@ -26,5 +26,6 @@ func main() {
 	//fmt.Println(a[0:])
 	//fmt.Println(strings.Index(a,"."))
 	//fmt.Println(a[strings.Index(a,"."):])
-	fmt.Println(leetcode.IsMatch("a", ".*..a*"))
+	//fmt.Println(leetcode.IsMatch("a", ".*..a*"))
+	fmt.Println(leetcode.MaxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7, 6, 6}))
 }
