@@ -29,5 +29,8 @@ func main() {
 	//fmt.Println(leetcode.IsMatch("a", ".*..a*"))
 	//fmt.Println(leetcode.MaxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7, 6, 6}))
 	//fmt.Println(leetcode.IntToRoman(4))
-	fmt.Println(leetcode.RomanToInt("LVIII"))
+	//fmt.Println(leetcode.RomanToInt("LVIII"))
+	//fmt.Println(leetcode.LongestCommonPrefix([]string{"flower","flow","flight"}))
+	fmt.Println(leetcode.ThreeSum([]int{-4, -2, 1, -5, -4, -4, 4, -2, 0, 4, 0, -2, 3, 1, -5, 0}))
+
 }
