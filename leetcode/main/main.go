@@ -34,5 +34,6 @@ func main() {
 	//fmt.Println(leetcode.ThreeSum([]int{-4, -2, 1, -5, -4, -4, 4, -2, 0, 4, 0, -2, 3, 1, -5, 0}))
 	//fmt.Println(leetcode.ThreeSumClosest([]int{1, 1, -1, -1, 3}, 1))
 	//fmt.Println(leetcode.LetterCombinations("23"))
-	fmt.Println(leetcode.IsValid("()[]{}"))
+	//fmt.Println(leetcode.IsValid("()[]{}"))
+	fmt.Println(leetcode.GenerateParenthesis(3))
 }
