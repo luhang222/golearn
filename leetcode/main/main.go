@@ -32,6 +32,7 @@ func main() {
 	//fmt.Println(leetcode.RomanToInt("LVIII"))
 	//fmt.Println(leetcode.LongestCommonPrefix([]string{"flower","flow","flight"}))
 	//fmt.Println(leetcode.ThreeSum([]int{-4, -2, 1, -5, -4, -4, 4, -2, 0, 4, 0, -2, 3, 1, -5, 0}))
-	fmt.Println(leetcode.ThreeSumClosest([]int{1, 1, -1, -1, 3}, 1))
+	//fmt.Println(leetcode.ThreeSumClosest([]int{1, 1, -1, -1, 3}, 1))
+	fmt.Println(leetcode.LetterCombinations("23"))
 
 }
