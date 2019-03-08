@@ -87,7 +87,7 @@ func findSubstring(s string, words []string) []int {
 				word := tmpStr[k*wordLen : (k+1)*wordLen]
 				count := temMap[word] + 1
 				if count > wordMap[word] {
-					+j = j + k*wordLen
+					j = j + k*wordLen
 					break
 				} else if k == 0 {
 					result = append(result, j)

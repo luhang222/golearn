@@ -38,6 +38,9 @@ func main() {
 	//fmt.Println(leetcode.GenerateParenthesis(3))
 	//fmt.Println(leetcode.StrStr_sunday("mississippi","issipi"))
 	//fmt.Println(leetcode.Divide(10,3))
-	fmt.Println(leetcode.FindSubstring("aaaaaaaa", []string{"aa", "aa", "aa"}))
-	fmt.Println(leetcode.FindSubstring("barfoothefoobarman", []string{"foo", "bar"}))
+	//fmt.Println(leetcode.FindSubstring("aaaaaaaa", []string{"aa", "aa", "aa"}))
+	//fmt.Println(leetcode.FindSubstring("barfoothefoobarman", []string{"foo", "bar"}))
+	//a := []int{1,2,3,3,1}
+	//leetcode.NextPermutation(a)
+	fmt.Println(leetcode.LongestValidParentheses(")()())"))
 }
