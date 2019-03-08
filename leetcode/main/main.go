@@ -23,9 +23,9 @@ func main() {
 	//fmt.Println(leetcode.IsPalindrome(1313131312))
 	//a := "asd.*"
 	//b := []rune(a)
-	//fmt.Println(a[0:])
+	//fmt.Println(a[1:3333])
 	//fmt.Println(strings.Index(a,"."))
-	//fmt.Println(a[strings.Index(a,"."):])
+	//fmt.Println(a[strings.Index(a,"sd") + 2:])
 	//fmt.Println(leetcode.IsMatch("a", ".*..a*"))
 	//fmt.Println(leetcode.MaxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7, 6, 6}))
 	//fmt.Println(leetcode.IntToRoman(4))
@@ -35,5 +35,9 @@ func main() {
 	//fmt.Println(leetcode.ThreeSumClosest([]int{1, 1, -1, -1, 3}, 1))
 	//fmt.Println(leetcode.LetterCombinations("23"))
 	//fmt.Println(leetcode.IsValid("()[]{}"))
-	fmt.Println(leetcode.GenerateParenthesis(3))
+	//fmt.Println(leetcode.GenerateParenthesis(3))
+	//fmt.Println(leetcode.StrStr_sunday("mississippi","issipi"))
+	//fmt.Println(leetcode.Divide(10,3))
+	fmt.Println(leetcode.FindSubstring("aaaaaaaa", []string{"aa", "aa", "aa"}))
+	fmt.Println(leetcode.FindSubstring("barfoothefoobarman", []string{"foo", "bar"}))
 }
