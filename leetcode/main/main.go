@@ -43,5 +43,5 @@ func main() {
 	//a := []int{1,2,3,3,1}
 	//leetcode.NextPermutation(a)
 	//fmt.Println(leetcode.LongestValidParentheses("()"))
-	fmt.Println(leetcode.Search([]int{4, 5, 0, 1, 2, 3}, 1))
+	fmt.Println(leetcode.Search([]int{3, 4, 5, 6, 7, 1, 2}, 2))
 }
