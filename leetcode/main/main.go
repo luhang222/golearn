@@ -67,5 +67,5 @@ func main() {
 	//leetcode.SolveSudoku(a)
 	//fmt.Println(a)
 	//fmt.Println(leetcode.CountAndSay(6))
-	fmt.Println(leetcode.CombinationSum2([]int{2, 3, 5, 7}, 7))
+	fmt.Println(leetcode.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 }
