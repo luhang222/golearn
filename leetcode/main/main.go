@@ -45,5 +45,27 @@ func main() {
 	//fmt.Println(leetcode.LongestValidParentheses("()"))
 	//fmt.Println(leetcode.Search([]int{3, 4, 5, 6, 7, 1, 2}, 2))
 	//fmt.Println(leetcode.SearchRange([]int{1,1,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,5,6,7,8},2))
-	fmt.Println(leetcode.SearchInsert([]int{1, 2, 4, 5, 6, 7, 8, 199, 2545}, 422221))
+	//fmt.Println(leetcode.SearchInsert([]int{1, 2, 4, 5, 6, 7, 8, 199, 2545}, 422221))
+	//fmt.Println(4 / 3 * 3)
+	//a := [][]byte{
+	//	{'5','3','.','.','7','.','.','.','.'},
+	//	{'6','.','.','1','9','5','.','.','.'},
+	//	{'.','9','8','.','.','.','.','6','.'},
+	//	{'8','.','.','.','6','.','.','.','3'},
+	//	{'4','.','.','8','.','3','.','.','1'},
+	//	{'7','.','.','.','2','.','.','.','6'},
+	//	{'.','6','.','.','.','.','2','8','.'},
+	//	{'.','.','.','4','1','9','.','.','5'},
+	//	{'.','.','.','.','8','.','.','7','9'},
+	//}
+	//b := make([][]byte, len(a))
+	//copy(b,a)
+	//b[0][0] = 'z'
+	//fmt.Println(a)
+	//fmt.Println(b)
+	//fmt.Println(a)
+	//leetcode.SolveSudoku(a)
+	//fmt.Println(a)
+	//fmt.Println(leetcode.CountAndSay(6))
+	fmt.Println(leetcode.CombinationSum2([]int{2, 3, 5, 7}, 7))
 }
